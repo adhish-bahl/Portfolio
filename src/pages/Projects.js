@@ -2,12 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/projects/ProjectCards";
 import Particle from "../components/Particle";
-import leaf from "../Assets/projects/leaf.png";
-import emotion from "../Assets/projects/emotion.png";
-import editor from "../Assets/projects/codeEditor.png";
-import chatify from "../Assets/projects/chatify.png";
-import suicide from "../Assets/projects/suicide.png";
-import bitsOfCode from "../Assets/projects/blog.png";
 
 function Projects() {
   return (
@@ -23,68 +17,77 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              // imgPath={}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Pixsort"
+              description="PixSort emerges as a transformative solution, revolutionizing photo-sharing dynamics, particularly in Tier 2 and Tier 3 Cities. Leveraging cutting-edge technologies such as React JS , ExpressJS, and SQL,AWS Rekoginition Service, the system tackles the complex challenges faced by photographers, ensuring transparency, accountability, and operational efficiency."
+              ghLink="https://github.com/sanjay-kandpal/PixSort"
+            // demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              // imgPath={}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Finzeoy"
+              description="Finzeoy is a personal finance management system. Finance, of financing, is the process of raising funds or capital for any kind of expenditure. This project uses ReactJS in the front-end which is hosted on netlify. Database is made using MySQL an hosted-on AWS. For their connection, PHP is used and hosted on 000webhost."
+              ghLink="https://github.com/adhish-bahl/Finzeoy"
+              demoLink="https://finzeoy.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              // imgPath={}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="T-Une"
+              description="Designed as a one-stop solution for all music lovers, this platform offers personalized experiences. Upon logging inand selecting their preferred genres, users receive customized news on their homepage. Used react.js to build the front-end of the project and used AWS to make and host the DataBase. The connection between the frond-end and back-end was established using NodeJS in the project."
+              ghLink="https://github.com/adhish-bahl/Tune"
+              demoLink="https://t-une.netlify.app/login"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              // imgPath={}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Fun With Triangles"
+              description="It is a fun web application where you can find many things related to Triangles. It is like heaven for triangles. It is built purely using HTML, CSS and Javascript."
+              ghLink="https://github.com/adhish-bahl/Fun-With-Triangles"
+              demoLink="https://fun-with-triangles.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              // imgPath={}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Rock Paper Scissor"
+              description="This is a classic Rock Paper Scissor game that I created using HTML CSS and JavaScript. This was built to enhance my basic concepts of JavaScript."
+              ghLink="https://github.com/adhish-bahl/Rock-Paper-Scissor-using-JS"
+              demoLink="https://rock-paper-scissor-adhish.netlify.app/"
+              />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              // imgPath={}
+              isBlog={false}
+              title="Blackjack"
+              description="This is a classic poker game, Blackjack, that I created to understand DOM manipulation in JavaScript more deeply. Learned how to inject tags in HTML file and manipulate the attributes and classes of HTML tags."
+              ghLink="https://github.com/adhish-bahl/Blackjack-using-JS"
+              demoLink="https://adhish-backjack.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              // imgPath={}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Minion Talking"
+              description="This is a fun web application that translates English into Minion language that is the banana language. It uses an API to do this, and that is what I have learned from it."
+              demoLink="https://minion-talking.netlify.app/"
             />
           </Col>
         </Row>

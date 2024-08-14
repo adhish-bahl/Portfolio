@@ -2,10 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 function Footer() {
   let date = new Date();
@@ -36,6 +35,26 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="mailto:adhishbahl0@gmail.com"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <MdEmail />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="//api.whatsapp.com/send?phone=919462849725&text=WHATEVER_LINK_OR_TEXT_YOU_WANT_TO_SEND"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaWhatsapp />
               </a>
             </li>
           </ul>

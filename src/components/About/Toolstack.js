@@ -5,6 +5,7 @@ import {
   SiPostman,
   SiGithub,
   SiAndroidstudio,
+  SiNetlify,
 } from "react-icons/si";
 import { DiNpm } from "react-icons/di";
 import { FaAws } from "react-icons/fa";
@@ -20,6 +21,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNpm />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNetlify />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaAws />

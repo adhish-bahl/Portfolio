@@ -13,8 +13,6 @@ import {
   DiBootstrap 
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
   SiNextdotjs,
   SiTailwindcss,
   SiMysql
