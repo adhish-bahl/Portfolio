@@ -102,9 +102,9 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                // href="https://soumyajitblogs.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
+                as={Link}
+                to="/blogs"
+                onClick={() => updateExpanded(false)}
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>

@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
-import Home from "./components/Home/Home";
-import About from "./components/About/About";
-import Projects from "./components/Projects/Projects";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
 import Footer from "./components/Footer";
-import Resume from "./components/Resume/ResumeNew";
+import Resume from "./pages/Resume";
 import {
   BrowserRouter as Router,
   Route,
@@ -37,9 +37,9 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          {/* <Route path="/blogs" element={<Resume />} /> */}
-          {/* <Route path="/experiance" element={<Resume />} /> */}
-          <Route path="*" element={<Navigate to="/"/>} />
+          {/* <Route path="/blogs" element={<Blogs />} />
+          <Route path="/experience" element={<Experience />} /> */}
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
       </div>
