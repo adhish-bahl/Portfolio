@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../Assets/pfp.png";
 import Tilt from "react-parallax-tilt";
 import Particle from "../components/Particle";
-import Home2 from "../components/home/Home2";
+import Introduction from "../components/home/Introduction";
 import Type from "../components/home/Type";
 
 function Home() {
@@ -39,7 +39,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Home2 />
+      <Introduction />
     </section >
   );
 }

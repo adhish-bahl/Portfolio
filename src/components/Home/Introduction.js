@@ -4,7 +4,7 @@ import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
-function Home2() {
+function Introduction() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -139,4 +139,4 @@ function Home2() {
     </Container>
   );
 }
-export default Home2;
+export default Introduction;
