@@ -1,13 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "../components/Projects/ProjectCards";
+import ProjectCard from "../components/projects/ProjectCards";
 import Particle from "../components/Particle";
-import leaf from "../Assets/Projects/leaf.png";
-import emotion from "../Assets/Projects/emotion.png";
-import editor from "../Assets/Projects/codeEditor.png";
-import chatify from "../Assets/Projects/chatify.png";
-import suicide from "../Assets/Projects/suicide.png";
-import bitsOfCode from "../Assets/Projects/blog.png";
+import leaf from "../Assets/projects/leaf.png";
+import emotion from "../Assets/projects/emotion.png";
+import editor from "../Assets/projects/codeEditor.png";
+import chatify from "../Assets/projects/chatify.png";
+import suicide from "../Assets/projects/suicide.png";
+import bitsOfCode from "../Assets/projects/blog.png";
 
 function Projects() {
   return (

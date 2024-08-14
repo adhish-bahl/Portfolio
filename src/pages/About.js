@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../components/Particle";
-import Techstack from "../components/About/Techstack";
-import Aboutcard from "../components/About/AboutCard";
+import Techstack from "../components/about/Techstack";
+import Toolstack from "../components/about/Toolstack";
+import Aboutcard from "../components/about/AboutCard";
 import laptopImg from "../Assets/about.png";
-import Toolstack from "../components/About/Toolstack";
 
 function About() {
   return (
@@ -21,7 +21,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              About <strong className="purple">Me</strong>
             </h1>
             <Aboutcard />
           </Col>
