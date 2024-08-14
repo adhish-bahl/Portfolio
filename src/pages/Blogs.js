@@ -1,8 +1,8 @@
 import React from 'react'
 import { Col, Container, Row } from "react-bootstrap";
 import Particle from "../components/Particle";
-import ProjectCard from "../components/projects/ProjectCards";
-import SamImg from "../Assets/home-bg.jpg"
+// import ProjectCard from "../components/projects/ProjectCards";
+// import SamImg from "../Assets/home-bg.jpg"
 
 function Blogs() {
   return (
