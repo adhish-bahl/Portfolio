@@ -26,8 +26,67 @@ function Home2() {
             </p>
           </Col>
         </Row>
+
         <Row>
-          <Col md={12} className="home-about-social">
+          <Col className="home-about-education">
+            <h1 style={{ fontSize: "2.6em", marginBottom: "2rem" }}>
+              MY <span className="purple"> EDUCATION</span>
+            </h1>
+            <div style={{ borderLeft: "1px solid purple", paddingLeft: "2rem" }}>
+              <p className="p-3 rounded mb-4" style={{border: "1px solid purple"}}>
+                <p className="d-flex justify-content-between mb-0">
+                  <h4><span className="purple">Masters of Computer Application</span></h4>
+                  <h6>July 2023 - May 2025</h6>
+                </p>
+                <p className="d-flex justify-content-between mb-0">
+                  <h5>Christ (Deemed to be Univeristy)</h5>
+                  <h6>Bangaluru, Kar</h6>
+                </p>
+                <h5>Percentage: <span className="purple">79%</span></h5>
+              </p>
+
+              <p className="p-3 rounded mb-4" style={{border: "1px solid purple"}}>
+                <p className="d-flex justify-content-between mb-0">
+                  <h4><span className="purple">Bachelor  of Computer Application</span></h4>
+                  <h6>July 2020 - May 2023</h6>
+                </p>
+                <p className="d-flex justify-content-between mb-0">
+                  <h5>Christ (Deemed to be Univeristy)</h5>
+                  <h6>Bangaluru, Kar</h6>
+                </p>
+                <h5>Percentage: <span className="purple">80%</span></h5>
+              </p>
+
+              <p className="p-3 rounded mb-4" style={{border: "1px solid purple"}}>
+                <p className="d-flex justify-content-between mb-0">
+                  <h4><span className="purple">Senior Secondary</span></h4>
+                  <h6>2020</h6>
+                </p>
+                <p className="d-flex justify-content-between mb-0">
+                  <h5>Mayoor School</h5>
+                  <h6>Ajmer, Raj</h6>
+                </p>
+                <h5>Science Biology with IP and PE</h5>
+                <h5>Percentage: <span className="purple">80%</span></h5>
+              </p>
+
+              <p className="p-3 rounded mb-4" style={{border: "1px solid purple"}}>
+                <p className="d-flex justify-content-between mb-0">
+                  <h4><span className="purple">Secondary</span></h4>
+                  <h6>2018</h6>
+                </p>
+                <p className="d-flex justify-content-between mb-0">
+                  <h5>Mayoor School</h5>
+                  <h6>Ajmer, Raj</h6>
+                </p>
+                <h5>Percentage: <span className="purple">85%</span></h5>
+              </p>
+            </div>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col className="home-about-social mt-5">
             <h1>FIND ME ON</h1>
             <ul className="home-about-social-links">
               <li className="social-icons">

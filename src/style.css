@@ -330,6 +330,13 @@ button:focus {
   text-align: center;
 }
 
+.home-about-education {
+  color: white !important;
+  padding-top: 100px !important;
+  padding-bottom: 20px !important;
+  text-align: left;
+}
+
 .home-about-body {
   padding-top: 50px;
   font-size: 1.2em !important;

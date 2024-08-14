@@ -28,7 +28,7 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} className="myAvtar">
+            <Col md={5} className="myAvtar justify-content-center d-flex">
               <div style={{width:"fit-content"}}>
                 <Tilt>
                   <img src={myImg} className="img-fluid mb-5" width={250} alt="avatar" />
