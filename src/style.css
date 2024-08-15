@@ -72,6 +72,12 @@ button:focus {
   border-radius: 12px;
 }
 
+@media (max-width: 767px) {
+  .sm-hidden {
+    display: none;
+  }
+}
+
 /* --------- */
 /* Navbar Section  */
 /* --------- */
@@ -337,10 +343,17 @@ button:focus {
   text-align: left;
 }
 
+.home-about-experience {
+  color: white !important;
+  padding-top: 100px !important;
+  padding-bottom: 20px !important;
+  text-align: left;
+}
+
 .home-about-body {
   padding-top: 50px;
   font-size: 1.2em !important;
-  text-align: left;
+  text-align: justify;
 }
 
 .home-about-social {

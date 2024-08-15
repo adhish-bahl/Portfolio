@@ -36,11 +36,11 @@ function Introduction() {
               <p className="p-3 rounded mb-4" style={{border: "1px solid purple"}}>
                 <p className="d-flex justify-content-between mb-0">
                   <h4><span className="purple">Masters of Computer Application</span></h4>
-                  <h6>July 2023 - May 2025</h6>
+                  <h6 className="sm-hidden">July 2023 - Present</h6>
                 </p>
                 <p className="d-flex justify-content-between mb-0">
                   <h5>Christ (Deemed to be Univeristy)</h5>
-                  <h6>Bangaluru, Kar</h6>
+                  <h6 className="sm-hidden">Bangaluru, Kar</h6>
                 </p>
                 <h5>Percentage: <span className="purple">79%</span></h5>
               </p>
@@ -48,11 +48,11 @@ function Introduction() {
               <p className="p-3 rounded mb-4" style={{border: "1px solid purple"}}>
                 <p className="d-flex justify-content-between mb-0">
                   <h4><span className="purple">Bachelor  of Computer Application</span></h4>
-                  <h6>July 2020 - May 2023</h6>
+                  <h6 className="sm-hidden">July 2020 - May 2023</h6>
                 </p>
                 <p className="d-flex justify-content-between mb-0">
                   <h5>Christ (Deemed to be Univeristy)</h5>
-                  <h6>Bangaluru, Kar</h6>
+                  <h6 className="sm-hidden">Bangaluru, Kar</h6>
                 </p>
                 <h5>Percentage: <span className="purple">80%</span></h5>
               </p>
@@ -60,24 +60,24 @@ function Introduction() {
               <p className="p-3 rounded mb-4" style={{border: "1px solid purple"}}>
                 <p className="d-flex justify-content-between mb-0">
                   <h4><span className="purple">Senior Secondary</span></h4>
-                  <h6>2020</h6>
+                  <h6 className="sm-hidden">2020</h6>
                 </p>
                 <p className="d-flex justify-content-between mb-0">
                   <h5>Mayoor School</h5>
-                  <h6>Ajmer, Raj</h6>
+                  <h6 className="sm-hidden">Ajmer, Raj</h6>
                 </p>
-                <h5>Science Biology with IP and PE</h5>
+                <h6>Science Biology with IP and PE</h6>
                 <h5>Percentage: <span className="purple">80%</span></h5>
               </p>
 
               <p className="p-3 rounded mb-4" style={{border: "1px solid purple"}}>
                 <p className="d-flex justify-content-between mb-0">
                   <h4><span className="purple">Secondary</span></h4>
-                  <h6>2018</h6>
+                  <h6 className="sm-hidden">2018</h6>
                 </p>
                 <p className="d-flex justify-content-between mb-0">
                   <h5>Mayoor School</h5>
-                  <h6>Ajmer, Raj</h6>
+                  <h6 className="sm-hidden">Ajmer, Raj</h6>
                 </p>
                 <h5>Percentage: <span className="purple">85%</span></h5>
               </p>
