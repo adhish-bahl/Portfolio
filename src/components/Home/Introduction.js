@@ -29,7 +29,7 @@ function Introduction() {
 
         <Row>
           <Col className="home-about-education">
-            <h1 style={{ fontSize: "2.6em", marginBottom: "2rem" }}>
+            <h1 style={{ fontSize: "2.6em", marginBottom: "2rem", textAlign: "center" }}>
               MY <span className="purple"> EDUCATION</span>
             </h1>
             <div style={{ borderLeft: "1px solid purple", paddingLeft: "2rem" }}>

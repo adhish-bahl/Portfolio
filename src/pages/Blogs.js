@@ -8,7 +8,7 @@ function Blogs() {
   return (
     <Container fluid className="project-section">
       <Particle />
-      <Container>
+      <Container style={{ zIndex: "100", position: "relative" }}>
         <h1 className="project-heading">
           My <strong className="purple">Blogs </strong>
         </h1>

@@ -10,8 +10,8 @@ function About() {
   return (
     <Container fluid className="about-section">
       <Particle />
-      <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
+      <Container style={{ zIndex: "100", position: "relative" }}>
+        <Row style={{ justifyContent: "center", padding: "10px"}}>
           <Col
             md={7}
             style={{

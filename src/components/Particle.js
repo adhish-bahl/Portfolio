@@ -5,6 +5,7 @@ function Particle() {
   return (
     <Particles
       id="tsparticles"
+      style={{ zIndex: "-10000" }}
       params={{
         particles: {
           number: {

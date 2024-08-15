@@ -7,9 +7,9 @@ function Projects() {
   return (
     <Container fluid className="project-section">
       <Particle />
-      <Container>
+      <Container style={{ zIndex: "100", position: "relative" }}>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
